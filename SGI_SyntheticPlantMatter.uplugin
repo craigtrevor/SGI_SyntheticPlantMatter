@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.0.1",
 	"FriendlyName": "SGI_SyntheticPlantMatter",
 	"Description": "Extract Biomass and Mycelia from Limestone",
 	"Category": "Modding",
@@ -9,7 +9,7 @@
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
-	"SupportURL": "",
+	"SupportURL": "https://github.com/craigtrevor/SGI_SyntheticPlantMatter",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -18,8 +18,11 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.6.0"
+			"SemVersion": "^3.6.0",
+			"BasePlugin": false
 		}
 	],
-	"SemVersion": "1.0.0"
+	"SemVersion": "1.0.1",
+	"RemoteVersionRange": "",
+	"AcceptsAnyRemoteVersion": false
 }
